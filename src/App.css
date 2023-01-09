@@ -1,38 +1,38 @@
-.App {
+.text{
   text-align: center;
+  font-family: 'Cookie', cursive;;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1{
+  margin: 20px 0  0 0;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.text span{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 50px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.text span a{
+  text-decoration: none;
+  color: darkslategrey;
+}
+.imagesBox{
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+.images{
   display: flex;
   flex-direction: column;
-  align-items: center;
+}
+.footer-text{
+  text-align: center;
+  font-size: 14px;
+  margin-top: 50px;
+}
+.footer-img{
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 30px;
 }
